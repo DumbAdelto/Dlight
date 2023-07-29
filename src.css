@@ -54,6 +54,19 @@
     --cmBorder: #bdbd00;
     --global-2: var(--white-500);
     --aGrad2: rgb(183, 196, 0); */
+    /* PURPLE THEME
+    --rules-channel: #9900ff;
+    --announce-channel: #9900ff;
+    --text-channel: #9900ff;
+    --voice-channel: #9900ff;
+    --forum-channel: #9900ff;
+    --main-theme: #23003b;
+    --accent-color: #34025c;
+    --grad1: #3a0096;
+    --grad2: black;
+    --cmBorder: #4500bd;
+    --global-2: var(--white-500);
+    --aGrad2: rgb(74, 0, 154); */
 }
 
 @keyframes background-pan {
