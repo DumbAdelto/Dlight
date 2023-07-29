@@ -27,7 +27,7 @@
 }
 
 a[href^="http"], a[href^="https"], a[href^="www"] {
-    background: linear-gradient(to right, var(--grad1) 0%, var(--aGrad2) 50%, var(--grad2) 100%);
+    background: linear-gradient(to right, var(--grad1) 0%, var(--aGrad2) 50%, var(--grad1) 100%);
     -webkit-background-clip: text;
     background-size: 200%;
     -webkit-text-fill-color: transparent;
