@@ -2,6 +2,7 @@
 /* Change channel icon colors */
 :root {
     /* CUSTOMIZABLE */
+    /* BLUE THEME */
     --rules-channel: #234df0;
     --announce-channel: #2584ec;
     --text-channel: dodgerblue;
@@ -14,6 +15,45 @@
     --cmBorder: #0028bb;
     --global-2: var(--white-500);
     --aGrad2: rgb(4, 53, 157);
+    /* PINK THEME
+    --rules-channel: #ff00e1;
+    --announce-channel: #ff00e1;
+    --text-channel: #ff00e1;
+    --voice-channel: #ff00e1;
+    --forum-channel: #ff00e1;
+    --main-theme: #260022;
+    --accent-color: #4f0046;
+    --grad1: #ad039a;
+    --grad2: black;
+    --cmBorder: #bf00a9;
+    --global-2: var(--white-500);
+    --aGrad2: rgb(136, 0, 132); */
+    /* GREEN THEME
+     --rules-channel: #00ff37;
+    --announce-channel: #00ff37;
+    --text-channel: #00ff37;
+    --voice-channel: #00ff37;
+    --forum-channel: #00ff37;
+    --main-theme: #042600;
+    --accent-color: #053600;
+    --grad1: #0d8000;
+    --grad2: black;
+    --cmBorder: #13ba00;
+    --global-2: var(--white-500);
+    --aGrad2: rgb(0, 255, 17); */
+    /* YELLOW THEME
+    --rules-channel: #fffb00;
+    --announce-channel: #fffb00;
+    --text-channel: #fffb00;
+    --voice-channel: #fffb00;
+    --forum-channel: #fffb00;
+    --main-theme: #3b3b00;
+    --accent-color: #5c5c02;
+    --grad1: #808000;
+    --grad2: black;
+    --cmBorder: #bdbd00;
+    --global-2: var(--white-500);
+    --aGrad2: rgb(183, 196, 0); */
 }
 
 @keyframes background-pan {
@@ -40,13 +80,7 @@ a[href^="http"], a[href^="https"], a[href^="www"] {
 .messageListItem-ZZ7v6g {
   background-color: var(--accent-color) !important;
   padding: 5px;
-  border-radius: 15px;
-  margin: 15px;
   transition: all 150ms;
-}
-
-.messageListItem-ZZ7v6g:hover {
-  border-radius: 25px;
 }
 /* goofy ahh mode 
 * {
